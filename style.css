@@ -4,15 +4,134 @@ td {
     height: 50px;
 }
 
-.class1 {
+.tableColor1 {
     width: 0;
     height: 100px;
     background: rgb(14, 199, 180);
 }
 
-.toRihgt:hover div {
+.toRight:hover div {
     width: 100%;
     animation: widthEnlarge 3s;
+}
+
+
+
+
+
+.tableColor2 {
+    width: 0;
+    height: 100%;
+    background: rgb(5, 66, 59);
+}
+
+.down {
+    position: relative;
+}
+
+.down:hover div {
+    width: 100%;
+    animation: widthEnlarge3 3s;
+    position: absolute;
+    top: 0; 
+}
+
+
+
+
+
+.tableColor3 {
+    width: 0;
+    height: 100%;
+    background: rgb(157, 211, 205);
+}
+
+.up {
+    position: relative;
+}
+
+.up:hover div {
+    width: 100%;
+    animation: widthEnlarge3 3s;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+.tableColor4 {
+    width: 0;
+    height: 100%;
+    background: rgb(82, 109, 108);
+}
+
+.toLeft {
+    position: relative;
+}
+
+.toLeft:hover div {
+    width: 100%;
+    animation: widthEnlarge 3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+.tableColor5 {
+    width: 0;
+    height: 100%;
+    background: rgb(26, 110, 143);
+}
+
+.toMiddle {
+    position: relative;
+}
+
+.toMiddle:hover div {
+    width: 50%;
+    animation: widthEnlarge2 3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tableColor6:hover div {
+    width: 50%;
+    animation: widthEnlarge2 3s;
+}
+
+
+
+
+.tableColor7 {
+    width: 0;
+    height: 100%;
+    background: rgb(136, 161, 158);
+}
+
+.toSide:hover div {
+    width: 50%;
+    animation: widthEnlarge2 3s;
+}
+
+.tableColor8 {
+    position: relative;
+}
+
+.tableColor8:hover div {
+    width: 50%;
+    animation: widthEnlarge2 3s;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 @keyframes widthEnlarge {
@@ -24,24 +143,22 @@ td {
     }
 }
 
-.class2 {
-    height: 100px;
-    background: rgb(157, 211, 205);
+@keyframes widthEnlarge2 {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 50%;
+    }
 }
 
-.class3 {
-    background: rgb(82, 109, 108);
+@keyframes widthEnlarge3 {
+    0% {
+        height: 0;
+    }
+    50% {
+        height: 100%;
+    }
 }
 
-.class4 {
-    background: rgb(5, 66, 59);
-}
-
-.class5 {
-    background: rgb(26, 110, 143);
-}
-
-.class6 {
-    background: rgb(136, 161, 158);
-}
 
